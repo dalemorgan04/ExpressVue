@@ -1,5 +1,5 @@
 ﻿const webpack = require('webpack');
-const clientConfig = require('./webpack.base.config');
+const clientConfig = require('./webpack.client.config');
 
 module.exports = function setupDevServer(app) {
     clientConfig.entry.app = [
@@ -10,6 +10,7 @@ module.exports = function setupDevServer(app) {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin()
     );
+
     const clientCompiler = webpack(clientConfig);
     app.use(
         require('webpack-dev-middleware')(clientCompiler, {
@@ -18,5 +19,5 @@ module.exports = function setupDevServer(app) {
             }
         })
     );
-    app.use(require('webpack-dev-middleware')(clientCompiler));
+    app.use(require('webpack-hot-middleware')(clientCompiler));
 };
