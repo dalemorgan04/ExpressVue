@@ -3,27 +3,32 @@
 const config = {
     entry: {
       app: path.resolve(__dirname, '../src/client-entry.js')
-    },
-    module: {
-      rules: [
-        {
-            enforce: 'pre',
-            test: /(\.js$)|(\.vue$)/,
-            loader: 'eslint-loader',
-            exclude: /node_modules/
-        },
-        {
-          test: /\.vue$/,
-          loader: 'vue-loader'
-        }
-      ]
-    },
-    output: {
-      path: path.resolve(__dirname, '../dist'),
-      publicPath: '/',
-      filename: 'assets/js/[name].js'
-    },
-    mode: 'development'
+  },
+  resolve: {
+    alias: {
+      vue: 'vue/dist/vue.js'
+    }
+  },
+  module: {
+    rules: [
+      {
+          enforce: 'pre',
+          test: /(\.js$)|(\.vue$)/,
+          loader: 'eslint-loader',
+          exclude: /node_modules/
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      }
+    ]
+  },
+  output: {
+    path: path.resolve(__dirname, '../dist'),
+    publicPath: '/',
+    filename: 'assets/js/[name].js'
+  },
+  mode: 'development'
 };
 
 module.exports = config;

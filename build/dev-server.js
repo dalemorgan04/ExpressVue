@@ -10,7 +10,6 @@ module.exports = function setupDevServer(app) {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin()
     );
-
     const clientCompiler = webpack(clientConfig);
     app.use(
         require('webpack-dev-middleware')(clientCompiler, {
