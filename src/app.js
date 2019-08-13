@@ -1,5 +1,5 @@
 ﻿import Vue from 'vue'
-// import AppLayout from './theme/Layout.vue'
+import AppLayout from './theme/Layout.vue'
 
 // const app = new Vue({
 //   render: h => h(AppLayout)
@@ -10,7 +10,7 @@
 // })
 
 const app = new Vue({
-  template: '<div id="app"><h1>yo</h1></div>'
+  render: h => h(AppLayout)
 })
 
 export { app }
