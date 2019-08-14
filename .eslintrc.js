@@ -3,9 +3,6 @@
   parserOptions: {
     sourceType: 'module'
   },
-  extends: 'standard',
-  //required to lint *.vue files
-  plugins: [
-    'vue'
-  ]
+  extends: ['plugin:vue/recommended'],
+  plugins: ['vue']
 }

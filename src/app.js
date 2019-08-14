@@ -1,13 +1,9 @@
-﻿import Vue from 'vue'
+import Vue from 'vue'
 import AppLayout from './theme/Layout.vue'
 
-// const app = new Vue({
-//   render: h => h(AppLayout)
-// })
-
-// Vue.component('app', {
-//   template: '<div id="app">howdy</div>'
-// })
+Vue.component('test', {
+  template: '<div>howdy</div>'
+})
 
 const app = new Vue({
   render: h => h(AppLayout)

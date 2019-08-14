@@ -1,8 +1,8 @@
-﻿const path = require("path");
+const path = require('path')
 
 const config = {
-    entry: {
-      app: path.resolve(__dirname, '../src/client-entry.js')
+  entry: {
+    app: path.resolve(__dirname, '../src/client-entry.js')
   },
   resolve: {
     alias: {
@@ -12,10 +12,10 @@ const config = {
   module: {
     rules: [
       {
-          enforce: 'pre',
-          test: /(\.js$)|(\.vue$)/,
-          loader: 'eslint-loader',
-          exclude: /node_modules/
+        enforce: 'pre',
+        test: /(\.js$)|(\.vue$)/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.vue$/,
@@ -29,6 +29,6 @@ const config = {
     filename: 'assets/js/[name].js'
   },
   mode: 'development'
-};
+}
 
-module.exports = config;
+module.exports = config
