@@ -1,0 +1,11 @@
+﻿@import '~bulma';
+$primary: blue;
+
+.columns {
+    flex-wrap: wrap;
+    color: $primary;
+}
+
+.content h3 {
+    color: $primary;
+}

@@ -53,8 +53,12 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="src\theme\Layout.scss">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\theme\AppHeader.vue" />
     <Content Include="src\theme\Layout.vue">
       <SubType>Code</SubType>
     </Content>
