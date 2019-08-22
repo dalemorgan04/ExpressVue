@@ -53,13 +53,16 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\theme\Layout.scss">
+    <Content Include="src\components\AppFooter.vue" />
+    <Content Include="src\components\AppNav.vue" />
+    <Content Include="src\components\AppHeader.scss" />
+    <Content Include="src\views\Theme.scss">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="src\theme\AppHeader.vue" />
-    <Content Include="src\theme\Layout.vue">
+    <Content Include="src\components\AppHeader.vue" />
+    <Content Include="src\views\Layout.vue">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
@@ -69,7 +72,8 @@
     <Folder Include="dist\assets\" />
     <Folder Include="dist\assets\js\" />
     <Folder Include="src\" />
-    <Folder Include="src\theme\" />
+    <Folder Include="src\views\" />
+    <Folder Include="src\components\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

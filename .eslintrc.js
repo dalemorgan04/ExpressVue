@@ -4,5 +4,6 @@
     sourceType: 'module'
   },
   extends: ['plugin:vue/recommended'],
-  plugins: ['vue']
+  plugins: ['vue'],
+  rules: { 'indent' : ['error', 4]}
 }
