@@ -54,6 +54,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="src\components\AppFooter.vue" />
+    <Content Include="src\components\AppNav.scss" />
     <Content Include="src\components\AppNav.vue" />
     <Content Include="src\components\AppHeader.scss" />
     <Content Include="src\views\Theme.scss">

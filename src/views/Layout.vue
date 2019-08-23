@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-header />
-    <app-nav />    
+    <app-nav />
     <section class="main-section section" />
     <app-footer />
   </div>

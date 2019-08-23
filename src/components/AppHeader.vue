@@ -8,6 +8,6 @@
 <script>
 </script>
 
-<style>
-@import './AppHeader.scss';
+<style lang="scss" scoped>
+    @import './AppHeader.scss';
 </style>
