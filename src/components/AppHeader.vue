@@ -1,7 +1,17 @@
 <template>
   <header>
-    <h1>OSB</h1>
-    <h2>Architects</h2>
+    <b-navbar
+      variant="faded"
+      type="light"
+      class="justify-content-center"
+    >
+      <b-navbar-brand
+        href="#"
+        class="m-0"
+      >
+        <h1>OSB Architects</h1>
+      </b-navbar-brand>
+    </b-navbar>
   </header>
 </template>
 

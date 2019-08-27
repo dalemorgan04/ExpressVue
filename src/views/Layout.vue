@@ -1,8 +1,15 @@
 <template>
-  <div id="app">
+  <div
+    id="app"
+    class="d-flex flex-column"
+  >
     <app-header />
     <app-nav />
-    <section class="main-section section" />
+
+    <main role="main">
+      Test
+    </main>
+
     <app-footer />
   </div>
 </template>
@@ -32,4 +39,12 @@ export default {
     @import './Theme.scss';
     @import 'node_modules/bootstrap/scss/bootstrap';
     @import 'node_modules/bootstrap-vue/src/index.scss';
+    
+    #app {
+        height: 100vh;
+    }
+
+    main {
+        flex: 1 0 auto;
+    }
 </style>
