@@ -3,11 +3,12 @@
     id="app"
     class="d-flex flex-column"
   >
-    <app-header />
-    <app-nav />
+    <!--<app-header />
+    <app-nav />-->
+
 
     <main role="main">
-      Test
+      <home />
     </main>
 
     <app-footer />
@@ -16,16 +17,18 @@
 
 <script>
 
-import AppHeader from '../components/AppHeader.vue'
-import AppNav from '../components/AppNav.vue'
+//import AppHeader from '../components/AppHeader.vue'
+//import AppNav from '../components/AppNav.vue'
 import AppFooter from '../components/AppFooter.vue'
+import Home from '../views/Home.vue'
 
 export default {
 
     components: {
-        'app-header': AppHeader,
-        'app-nav': AppNav,
-        'app-footer' : AppFooter
+        //'app-header': AppHeader,
+        //'app-nav': AppNav,
+        'app-footer': AppFooter,
+        'home' : Home
     },
     data () {
         return {}
