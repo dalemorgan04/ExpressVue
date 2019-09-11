@@ -53,7 +53,7 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\assets\gus-ruballo-h5QNclJUiA8-unsplash.jpg" />
+    <Content Include="src\images\house.jpg" />
     <Content Include="src\components\AppFooter.vue" />
     <Content Include="src\components\AppNav.scss" />
     <Content Include="src\components\AppNav.vue" />
@@ -75,7 +75,7 @@
     <Folder Include="dist\assets\" />
     <Folder Include="dist\assets\js\" />
     <Folder Include="src\" />
-    <Folder Include="src\assets\" />
+    <Folder Include="src\images\" />
     <Folder Include="src\views\" />
     <Folder Include="src\components\" />
   </ItemGroup>

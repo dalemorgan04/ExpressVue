@@ -2,10 +2,13 @@
   <div>
     <section class="jumbotron">
       <div class="leftContainer">
-        <!--<img src="../assets/gus-ruballo-h5QNclJUiA8-unsplash.jpg">-->
+        <img
+          src="{img}"
+          alt="Alternate Text"
+        >
       </div>
       <div class="rightContainer">
-        <h1>Inspiring Architecural Design SOlutions for your home</h1>
+        <h1>Inspiring Architecural Design Solutions for your home</h1>
         <p>
           OSB-Architects work to create inspiring spaces through 
           functional and uplifting design with the overall aim of 
@@ -16,6 +19,8 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import img from '../images/house.jpg'
+</script>
 
 <style></style>

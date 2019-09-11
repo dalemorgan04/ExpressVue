@@ -1,3 +1,6 @@
 C:\Users\DaleMorgan\source\repos\ExpressVue\ExpressVue\obj\Debug\ExpressVue.njsprojAssemblyReference.cache
 C:\Users\DaleMorgan\source\repos\ExpressVue\ExpressVue\obj\Debug\ExpressVue.njsproj.CoreCompileInputs.cache
 C:\Users\DaleMorgan\source\repos\ExpressVue\ExpressVue\bin\Microsoft.NodejsTools.WebRole.dll
+D:\Repos\ExpressVue\ExpressVue\obj\Debug\ExpressVue.njsprojAssemblyReference.cache
+D:\Repos\ExpressVue\ExpressVue\obj\Debug\ExpressVue.njsproj.CoreCompileInputs.cache
+D:\Repos\ExpressVue\ExpressVue\bin\Microsoft.NodejsTools.WebRole.dll
