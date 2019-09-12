@@ -1,0 +1,25 @@
+﻿@import './Theme.scss';
+
+.jumbotron-container {
+    height: 100vh;
+}
+
+.container-left {
+    flex: 1 1 35%;
+    z-index: 2;
+    
+    .container-image {
+        margin-right: -50%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.container-right {
+    background: $primary;
+    flex: 1 1 65%;
+    z-index: 1;
+}
