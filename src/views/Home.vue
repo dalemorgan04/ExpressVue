@@ -2,10 +2,7 @@
   <div>
     <section class="jumbotron">
       <div class="leftContainer">
-        <img
-          src="{img}"
-          alt="Alternate Text"
-        >
+        <img src="../images/house.jpg">
       </div>
       <div class="rightContainer">
         <h1>Inspiring Architecural Design Solutions for your home</h1>
@@ -19,8 +16,6 @@
   </div>
 </template>
 
-<script>
-import img from '../images/house.jpg'
-</script>
+<script></script>
 
 <style></style>
