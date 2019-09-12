@@ -58,6 +58,7 @@
     <Content Include="src\components\AppNav.scss" />
     <Content Include="src\components\AppNav.vue" />
     <Content Include="src\components\AppHeader.scss" />
+    <Content Include="src\images\lounge.jpg" />
     <Content Include="src\views\Home.vue" />
     <Content Include="src\views\Home.scss" />
     <Content Include="src\views\Theme.scss">

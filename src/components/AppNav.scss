@@ -1,5 +1,39 @@
 ﻿@import '../views/Theme.scss';
+.desktop {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 
+    .brand{
+        flex: 1 1 40%
+    }
+
+    nav {
+        flex: 1 1 60%;
+
+        ul {
+            height: 100%;
+
+            li {
+                list-style-type: none;
+                font-size: 2rem;
+                margin: 0 20px;
+                
+                a {
+                    color: $dark;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* li hover effect */
 ul li {
     margin: 0 10px;
 
@@ -19,7 +53,7 @@ ul li {
     }
 
     a::before {
-        left: 0;
+        left: -10px;
         transform-origin: center top;
     }
 
@@ -29,7 +63,7 @@ ul li {
     }
 
     a::after {
-        right: 0;
+        right: -10px;
         transform-origin: center bottom;
     }
 
@@ -38,3 +72,4 @@ ul li {
         transform: scaleY(1);
     }
 }
+

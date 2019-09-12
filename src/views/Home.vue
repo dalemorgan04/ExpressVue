@@ -3,7 +3,7 @@
     <section class="jumbotron-container d-flex flex-row">
       <div class="container-left d-flex align-items-center">
         <div class="container-image">
-          <img src="../images/house.jpg">
+          <img src="../images/lounge.jpg">
         </div>
       </div>
       <div class="container-right">

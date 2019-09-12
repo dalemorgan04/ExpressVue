@@ -1,21 +1,23 @@
 <template>
   <header>
-    <b-navbar
-      variant="faded"
-      type="light"
-      class="justify-content-center"
-    >
-      <b-navbar-brand
-        href="#"
-        class="m-0"
-      >
-        <h1>OSB Architects</h1>
-      </b-navbar-brand>
-    </b-navbar>
+    <app-nav /> 
   </header>
 </template>
 
 <script>
+import AppNav from '../components/AppNav.vue'
+
+    
+export default {
+
+    components: {
+        'app-nav': AppNav
+    },
+    data () {
+        return {}
+    },
+    methods: {}
+}
 </script>
 
 <style lang="scss" scoped>
