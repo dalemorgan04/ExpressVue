@@ -2,15 +2,54 @@
 
 .jumbotron-container {
     height: 100vh;
+
+    .container-left {
+        flex: 1 1 35%;
+        z-index: 2;
+    
+            .container-image {
+            margin-right: -50%;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .container-right {
+        background: $primary;
+        flex: 1 1 65%;
+        z-index: 1;
+        padding-top: 200px;
+        padding-left: 20%;
+    }
 }
 
-.container-left {
-    flex: 1 1 35%;
-    z-index: 2;
-    
-    .container-image {
-        margin-right: -50%;
+.summary-container {
+    margin: 100px 0;
+    text-align: center;
 
+    .container-left, .container-right {
+        flex: 1 1 100%;
+    }
+
+    .container-left {
+        padding: 0 100px;
+        
+        .summary-heading {
+
+        }
+
+        .summary-content{
+            flex: 0 0 auto;
+            max-width: 400px;
+            text-align: justify;
+            margin: 0 auto;
+            vertical-align: central;
+        }
+    }
+
+    .container-image {
         img {
             width: 100%;
             height: auto;
@@ -18,10 +57,3 @@
     }
 }
 
-.container-right {
-    background: $primary;
-    flex: 1 1 65%;
-    z-index: 1;
-    padding-top: 200px;
-    padding-left: 20%;
-}

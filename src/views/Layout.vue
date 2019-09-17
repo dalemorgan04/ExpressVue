@@ -2,10 +2,8 @@
   <div
     id="app"
     class="d-flex flex-column"
-  >
+  >    
     <app-header />
-    <!--<app-nav />-->
-
 
     <main role="main">
       <home />
