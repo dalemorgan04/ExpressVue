@@ -1,18 +1,18 @@
 <template>
   <div>
     <section class="jumbotron-container d-flex flex-row justify-content-between">
-      <div class="container-left d-flex align-items-center">
-        <div class="container-image">
-          <img src="../images/lounge.jpg">
-        </div>
-      </div>
-      <div class="container-right">
+      <div class="container-right d-flex align-items-center">
         <h1>Inspiring Architecural Design Solutions for your home</h1>
         <p>
           OSB-Architects work to create inspiring spaces through 
           functional and uplifting design with the overall aim of 
           making that perfect "happy home" for you to enjoy
         </p>
+      </div>
+      <div class="container-left">
+        <div class="container-image">
+          <img src="../images/lounge.jpg">
+        </div>
       </div>
     </section>
 

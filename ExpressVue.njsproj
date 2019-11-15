@@ -78,6 +78,7 @@
     <Folder Include="dist\assets\js\" />
     <Folder Include="src\" />
     <Folder Include="src\images\" />
+    <Folder Include="src\fonts\" />
     <Folder Include="src\views\" />
     <Folder Include="src\components\" />
   </ItemGroup>

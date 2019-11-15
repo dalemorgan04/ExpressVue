@@ -1,5 +1,6 @@
 ﻿@import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 //Theme
 $primary: #ffda00;
@@ -10,3 +11,11 @@ $success: #17BEBB;
 $info: #3F88C5;
 $dark: #2E282A;
 $light: white;
+
+//Fonts
+$font-header: 'Playfair Display', serif;
+
+
+h1 {
+    font-family: $font-header;
+}
