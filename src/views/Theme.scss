@@ -11,11 +11,25 @@ $success: #17BEBB;
 $info: #3F88C5;
 $dark: #2E282A;
 $light: white;
-
-//Fonts
 $font-header: 'Playfair Display', serif;
+
 
 
 h1 {
     font-family: $font-header;
+}
+
+//Floating accent
+.accent {
+    position:relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top:-10px;
+        left: 0;
+        width: 100px;
+        height: 10px;
+        background: $primary;
+    }
 }

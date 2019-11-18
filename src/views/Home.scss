@@ -1,27 +1,31 @@
 ﻿@import './Theme.scss';
 
 .jumbotron-container {
+    padding-top: 100px;
     height: 100vh;
 
+    jumbotron-heading {
+        font-size: 50px;
+        color: $dark;
+    }
+
     .container-left {
-        flex: 1 1 35%;
+        flex: 1 1 50%;
         z-index: 2;
-    
-            .container-image {
-            margin-right: -50%;
+    }
+
+    .container-right {
+        flex: 1 1 65%;
+        z-index: 1;
+        position: relative;
+
+        .container-image {
 
             img {
                 width: 100%;
                 height: auto;
             }
         }
-    }
-    .container-right {
-        background: $primary;
-        flex: 1 1 65%;
-        z-index: 1;
-        padding-top: 200px;
-        padding-left: 20%;
     }
 }
 
