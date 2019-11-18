@@ -1,35 +1,78 @@
 ﻿@import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap-vue/src/index.scss';
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
 
 //Theme
-$primary: #ffda00;
-$secondary: #E4572E;
+$primary: #FFDC22;
+$secondary: #4ABDAC;
 $warning: #ffda00;
 $danger: #E4572E;
 $success: #17BEBB;
 $info: #3F88C5;
-$dark: #2E282A;
+$dark: #707070;
 $light: white;
-$font-header: 'Playfair Display', serif;
-
-
+$font-serif: 'Playfair Display', serif;
+$font-thin: 'Raleway', sans-serif;
+$font-handwriting: 'Beth Ellen', cursive;
+$font-handwriting-2: 'Kaushan Script', cursive;
 
 h1 {
-    font-family: $font-header;
+    font-family: $font-serif;
+}
+
+h2 {
+    font-family: $font-thin;
+}
+
+.handwritten {
+    font-family: $font-handwriting;
+}
+
+.handwritten-2 {
+    font-family: $font-handwriting-2;
 }
 
 //Floating accent
 .accent {
-    position:relative;
+    position: relative;
 
     &:before {
         content: "";
         position: absolute;
-        top:-10px;
+        top: -10px;
         left: 0;
         width: 100px;
         height: 10px;
         background: $primary;
     }
+}
+
+//Shadows
+
+.shadow-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.shadow-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.shadow-2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.shadow-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.shadow-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.shadow-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }

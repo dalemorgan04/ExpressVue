@@ -6,13 +6,19 @@
           Inspiring Architecural Design Solutions for your home
         </h1>
         <p>
-          OSB-Architects work to create inspiring spaces through 
-          functional and uplifting design with the overall aim of 
+          OSB-Architects work to create inspiring spaces through
+          functional and uplifting design with the overall aim of
           making that perfect "happy home" for you to enjoy
+        </p>
+        <p class="handwritten">
+          Happy Home
+        </p>
+        <p class="handwritten-2">
+          Happy Home
         </p>
       </div>
       <div class="container-right d-flex justify-content-center flex-column">
-        <div class="container-image">
+        <div class="container-image shadow-3">
           <img src="../images/lounge.jpg">
         </div>
       </div>

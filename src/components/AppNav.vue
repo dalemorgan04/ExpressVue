@@ -2,8 +2,8 @@
   <div>
     <!-- Desktop Navbar -->
     <div class="desktop d-flex">
-      <div class="brand">
-        <h1>OSB Architects</h1>
+      <div class="brand align-self-start">
+        <img src="../images/logo.png">
       </div>
 
 
