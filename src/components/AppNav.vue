@@ -9,7 +9,12 @@
 
       <nav>
         <ul class="d-flex flex-row justify-content-center align-items-center">
-          <li><a href="#">About</a></li>
+          <li>
+            <a
+              href="#"
+              class="accent active"
+            >About</a>
+          </li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

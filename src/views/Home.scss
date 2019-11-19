@@ -1,17 +1,38 @@
 ﻿@import './Theme.scss';
 
+.heading {
+    font-size: 50px;
+    color: $dark;
+}
+
 .jumbotron-container {
     padding-top: 100px;
     height: 100vh;
 
-    .jumbotron-heading {
-        font-size: 50px;
-        color: $dark;
-    }
+    
 
     .container-left {
         flex: 1 1 45%;
         z-index: 2;
+
+        p {
+            font-size: 22px;
+        }
+
+        .jumbotron-tag {
+            span {
+                font-family: $font-handwriting;
+                font-size: 40px;
+            }
+
+            .highlight-1 {
+                color: $secondary;
+            }
+
+            .highlight-2 {
+                color: $primary;
+            }
+        }
     }
 
     .container-right {
@@ -24,7 +45,6 @@
             img {
                 width: 100%;
                 height: auto;
-
             }
         }
     }
@@ -38,19 +58,30 @@
         flex: 1 1 100%;
     }
 
-    .container-left {
+    .container-right {
         padding: 0 100px;
-        
-        .summary-heading {
-
-        }
 
         .summary-content{
             flex: 0 0 auto;
-            max-width: 400px;
+            max-width: 500px;
             text-align: justify;
             margin: 0 auto;
             vertical-align: central;
+            font-size: 22px;
+        }
+
+        .summary-tag {
+            font-family: $font-serif;
+
+            .highlight-1{
+                font-size: 60px;
+                color: $primary;
+            }
+
+            .highlight-2{
+                font-size: 40PX;
+                color: $secondary;
+            }
         }
     }
 
@@ -61,4 +92,3 @@
         }
     }
 }
-

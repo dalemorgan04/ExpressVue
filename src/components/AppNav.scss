@@ -35,6 +35,10 @@
                 a {
                     color: $dark;
 
+                    &.active {
+                        color: $secondary;
+                    }
+
                     &:hover {
                         text-decoration: none;
                     }
@@ -50,37 +54,11 @@ ul li {
 
     a {
         position: relative;
+
+        &.active {
+            color: $secondary;
+        }
     }
 
-    a::before, a::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 2px;
-        background-color: $secondary;
-        transform: scaleY(0);
-        transition: transform 0.5s ease;
-    }
-
-    a::before {
-        left: -10px;
-        transform-origin: center top;
-    }
-
-    a:hover::before {
-        transform-origin: center bottom;
-        transform: scaleY(1);
-    }
-
-    a::after {
-        right: -10px;
-        transform-origin: center bottom;
-    }
-
-    a:hover::after {
-        transform-origin: center top;
-        transform: scaleY(1);
-    }
 }
 

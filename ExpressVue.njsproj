@@ -53,6 +53,7 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="src\fonts\WildYouth-Regular.otf" />
     <Content Include="src\images\house.jpg" />
     <Content Include="src\components\AppFooter.vue" />
     <Content Include="src\components\AppNav.scss" />
