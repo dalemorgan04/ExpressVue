@@ -20,7 +20,7 @@
     "pug": "^2.0.0-beta6",
     "serve-favicon": "^2.3.0",
     "vue": "^2.6.10",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
